@@ -1,6 +1,6 @@
 # aave-v3-arbitrum
 
-A [nuthatch](https://github.com/nightswatchhq/nuthatch) nest: **Aave V3 on Arbitrum**.
+A [nuthatch](https://github.com/nuthatch-org/nuthatch) nest: **Aave V3 on Arbitrum**.
 
 As `aave-v3`, re-pointed at Arbitrum.
 
@@ -25,7 +25,7 @@ Indexed blocks **496,878,106 to 497,273,932** and sealed **19,144 events**. Ever
 ## Run it
 
 ```sh
-nuthatch init --from https://github.com/nightswatchhq/aave-v3-arbitrum
+nuthatch init --from https://github.com/nuthatch-org/aave-v3-arbitrum
 cd aave-v3-arbitrum
 nuthatch dev --dir . --backfill 50000 --seal-direct
 nuthatch sql --dir . "SELECT count(*) FROM \"c0__borrow\""
